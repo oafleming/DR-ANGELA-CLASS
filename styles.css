@@ -32,6 +32,10 @@ h1 {
     transition: transform 0.3s ease;
 }
 
+h1:hover {
+    transform: scale(1.05);
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
