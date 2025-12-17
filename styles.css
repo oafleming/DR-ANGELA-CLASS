@@ -29,6 +29,7 @@ h1 {
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     animation: fadeIn 1s ease-in;
+    transition: transform 0.3s ease;
 }
 
 @keyframes fadeIn {

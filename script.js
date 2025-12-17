@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add a simple hover effect
     welcomeMessage.addEventListener('mouseenter', function() {
         this.style.transform = 'scale(1.05)';
-        this.style.transition = 'transform 0.3s ease';
     });
     
     welcomeMessage.addEventListener('mouseleave', function() {
